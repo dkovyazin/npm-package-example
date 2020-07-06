@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "target": "es5",
+    "sourceMap": false,
+    "strict": false,
+    "lib": [ "ES2020", "DOM" ],
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "baseUrl": "./source",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./source",
+    "declarationMap": false,
+    "removeComments": false
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    ".vs",
+    ".vscode",
+    "test"
+  ],
+  "compileOnSave": true,
+  "typeAcquisition": {
+    "enable": true
+  }
+}
